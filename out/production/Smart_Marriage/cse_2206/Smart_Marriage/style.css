@@ -1,0 +1,133 @@
+
+
+.parent{
+    -fx-background-color: transparent;
+    -fx-background-image: url("images/background.jpg");
+    
+}
+.pane{
+   -fx-background-color: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 20, 168));
+   
+}
+.trans-btn-white-border{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-text-fill: whitesmoke;
+}
+.white-pane{
+    -fx-background-color: #ffffff;
+}
+.blue-panel{
+    -fx-background-color: linear-gradient(to right, rgb(8, 37, 4), rgb(28, 0, 51));
+}
+.tf_box{
+    -fx-background-color: transparent;
+    -fx-border-color: #DEDEE4;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+.tf{
+    -fx-background-color: transparent;    
+}
+.blue-btn{
+    -fx-background-color: #2196f3;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #ffffff;
+    
+}
+
+.login_lbl {
+    -fx-font-size: 50px;
+    -fx-font-family: "Lucida Handwriting";
+    -fx-font-weight: bold;
+    -fx-text-fill: #dee700;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.h_lbl {
+    -fx-font-family: "Raleway";
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.p_lbl {
+    -fx-font-family: "Century";
+    -fx-font-size: 17px;
+    -fx-text-fill: #333333;
+}
+
+.f_btn {
+    -fx-font-family: "Lucida Handwriting";
+    -fx-font-weight: bold;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #22c1c3 0%, #22c1c3 100%),
+        #22c1c3,
+        #fd1d1d,
+        
+    radial-gradient(center 50% 50%, radius 100%, #22c1c3, #fd1d1d);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.f_btn:hover{
+    -fx-font-weight: bold;
+    -fx-font-family: "Lucida Handwriting";
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #22c1c3 0%, #22c1c3 100%),
+        #22c1c3,
+        #fd1d1d,
+        radial-gradient(center 50px 50px, radius 100px, red, blue);
+}
+
+.login_box {
+    
+    -fx-background-radius: 20px;
+    -fx-background-image: url("images/login.jpeg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    
+    
+}
+.input_lbl {
+   -fx-font-family: "Raleway";
+  -fx-arc-width: 100%;
+  -fx-padding : 10 0 8 8;
+  -fx-font-size: 16px;
+  -fx-background-color: #ffffff;
+  -fx-text-fill: #ffffff;
+  -fx-font-weight: bold;
+  -fx-margin-bottom: 30px;
+  -fx-outline: none;
+  -fx-background: transparent;
+}
+
+
+.dark-blue {
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.dark-blue Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+
