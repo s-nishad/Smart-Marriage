@@ -43,7 +43,7 @@
       </HBox>
    </top>
    <bottom>
-      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" styleClass="footer" stylesheets="@homePage.css" BorderPane.alignment="CENTER">
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" styleClass="footer" stylesheets="@../CSS/homePage.css" BorderPane.alignment="CENTER">
          <children>
             <Label alignment="CENTER" text="All Rights Reserved By Group 10">
                <font>
@@ -54,7 +54,7 @@
       </HBox>
    </bottom>
    <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="body" stylesheets="@homePage.css" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="body" stylesheets="@CSS/homePage.css" BorderPane.alignment="CENTER">
          <children>
             <VBox alignment="TOP_RIGHT" layoutX="60.0" layoutY="60.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="350.0" prefWidth="370.0" styleClass="leftbox" stylesheets="@homePage.css">
                <children>

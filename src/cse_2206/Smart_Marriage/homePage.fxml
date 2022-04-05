@@ -25,7 +25,7 @@
                   <Insets />
                </HBox.margin>
             </Label>
-            <Button fx:id="button_logout" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="30.0" prefWidth="117.0" text="Log Out" textAlignment="CENTER">
+            <Button fx:id="button_logout" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="30.0" prefWidth="117.0" text="Log Out" textAlignment="CENTER" textFill="#ee4141">
                <font>
                   <Font size="14.0" />
                </font>
@@ -43,7 +43,7 @@
       </HBox>
    </top>
    <bottom>
-      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" styleClass="footer" stylesheets="@../CSS/homePage.css" BorderPane.alignment="CENTER">
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" styleClass="footer" stylesheets="@CSS/homePage.css" BorderPane.alignment="CENTER">
          <children>
             <Label alignment="CENTER" text="All Rights Reserved By Group 10">
                <font>
@@ -54,9 +54,9 @@
       </HBox>
    </bottom>
    <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="body" stylesheets="@../CSS/homePage.css" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="body" stylesheets="@CSS/homePage.css" BorderPane.alignment="CENTER">
          <children>
-            <VBox alignment="TOP_RIGHT" layoutX="60.0" layoutY="60.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="350.0" prefWidth="370.0" styleClass="leftbox" stylesheets="@homePage.css">
+            <VBox alignment="TOP_RIGHT" layoutX="60.0" layoutY="60.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="350.0" prefWidth="370.0" styleClass="leftbox" stylesheets="@CSS/homePage.css">
                <children>
                   <Pane />
                   <Button fx:id="goReg" mnemonicParsing="false" prefHeight="350.0" prefWidth="374.0" style="-fx-background-color: #ee2e2e;" text="বিবাহের জন্য নিবন্ধন করুন" textFill="WHITE" wrapText="true">
@@ -68,7 +68,7 @@
             </VBox>
             <VBox layoutX="503.0" layoutY="60.0" prefHeight="350.0" prefWidth="330.0" style="-fx-background-color: pink;">
                <children>
-                  <Pane prefHeight="63.0" prefWidth="320.0" styleClass="main_btn" stylesheets="@homePage.css">
+                  <Pane prefHeight="63.0" prefWidth="320.0" styleClass="main_btn" stylesheets="@CSS/homePage.css">
                      <VBox.margin>
                         <Insets />
                      </VBox.margin>
@@ -80,7 +80,7 @@
                         </Button>
                      </children>
                   </Pane>
-                  <Pane layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="320.0" styleClass="main_btn" stylesheets="@homePage.css">
+                  <Pane layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="320.0" styleClass="main_btn" stylesheets="@CSS/homePage.css">
                      <children>
                         <Label contentDisplay="CENTER" layoutX="88.0" layoutY="12.0" prefHeight="36.0" prefWidth="201.0" text="নিকাহ কার্ড সংগ্রহ">
                            <font>
@@ -92,7 +92,7 @@
                         <Insets top="10.0" />
                      </VBox.margin>
                   </Pane>
-                  <Pane layoutX="10.0" layoutY="75.0" prefHeight="61.0" prefWidth="320.0" styleClass="main_btn" stylesheets="@homePage.css">
+                  <Pane layoutX="10.0" layoutY="75.0" prefHeight="61.0" prefWidth="320.0" styleClass="main_btn" stylesheets="@CSS/homePage.css">
                      <children>
                         <Label contentDisplay="CENTER" layoutX="91.0" layoutY="12.0" prefHeight="36.0" prefWidth="198.0" text=" প্রোফাইল দেখুন">
                            <font>
@@ -104,7 +104,7 @@
                         <Insets top="10.0" />
                      </VBox.margin>
                   </Pane>
-                  <Pane layoutX="10.0" layoutY="140.0" prefHeight="67.0" prefWidth="320.0" styleClass="main_btn" stylesheets="@homePage.css">
+                  <Pane layoutX="10.0" layoutY="140.0" prefHeight="67.0" prefWidth="320.0" styleClass="main_btn" stylesheets="@CSS/homePage.css">
                      <children>
                         <Label contentDisplay="CENTER" layoutX="94.0" layoutY="12.0" prefHeight="36.0" prefWidth="195.0" text="বিস্তারিত জানুন">
                            <font>
@@ -116,7 +116,7 @@
                         <Insets top="10.0" />
                      </VBox.margin>
                   </Pane>
-                  <Pane layoutX="10.0" layoutY="205.0" prefHeight="65.0" prefWidth="320.0" styleClass="main_btn" stylesheets="@homePage.css">
+                  <Pane layoutX="10.0" layoutY="205.0" prefHeight="65.0" prefWidth="320.0" styleClass="main_btn" stylesheets="@CSS/homePage.css">
                      <children>
                         <Label contentDisplay="CENTER" layoutX="99.0" layoutY="14.0" prefHeight="36.0" prefWidth="146.0" text="আমাদের সম্পর্কে">
                            <font>

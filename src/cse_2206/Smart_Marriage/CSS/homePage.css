@@ -23,7 +23,7 @@
 
 .body {
     -fx-background-color: rgba(239, 239, 85, 0.83);
-    -fx-background-image: url("images/Hback.jpg");
+    -fx-background-image: url("../images/Hback.jpg");
 }
 
 

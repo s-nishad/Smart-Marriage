@@ -2,7 +2,7 @@
 
 .parent{
     -fx-background-color: transparent;
-    -fx-background-image: url("images/background.jpg");
+    -fx-background-image: url("../images/background.jpg");
     
 }
 .pane{
@@ -89,7 +89,7 @@
 .login_box {
     
     -fx-background-radius: 20px;
-    -fx-background-image: url("images/login.jpeg");
+    -fx-background-image: url("../images/login.jpeg");
     -fx-background-repeat: stretch;   
     -fx-background-size: 900 506;
     -fx-background-position: center center;

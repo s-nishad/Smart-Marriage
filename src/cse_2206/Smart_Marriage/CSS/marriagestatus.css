@@ -5,7 +5,7 @@
 .mainFxmlClass {
     -fx-background-color: rgba(239, 239, 85, 0.83);
     -fx-background-color: transparent;
-    -fx-background-image: url("images/Hback.jpg");
+    -fx-background-image: url("../images/Hback.jpg");
 
 }
 .btn:hover{
